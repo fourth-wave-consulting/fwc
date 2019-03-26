@@ -1,0 +1,159 @@
+<!-- begin Logo & Tabs Template -->
+<tr>
+    <td>
+        <!-- Begin E-Commerce Header -->
+
+        <div class="off-canvas ecommerce-header-off-canvas position-left" id="ecommerce-header" data-off-canvas>
+
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="menu vertical">
+                <li class="main-nav-link"><a href="<%=getCurrentAttribute('site','homepageurl')%>" title="Home">Home</a></li>
+                <li class="main-nav-link">
+                    <a href="<%=getAttribute('infoitem',12,'storeurl')%>" title="Company">Company</a>
+                    <ul class="vertical menu">
+                        <li>
+                            <a href="/photog/Camcorders/About-Us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="/contact-fourth-wave-consulting">Contact Us</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main-nav-link"><a href="<%=getAttribute('sitecategory',155,'storeurl')%>" title="<%=getAttribute('sitecategory',155,'itemid')%>"><%=getAttribute('sitecategory',155,'itemid')%></a></li>
+                <li class="main-nav-link"><a href="<%=getAttribute('sitecategory',157,'storeurl')%>" title="<%=getAttribute('sitecategory',157,'itemid')%>"><%=getAttribute('sitecategory',157,'itemid')%></a></li>
+                <li class="main-nav-link"><a href="<%=getAttribute('sitecategory',-148,'storeurl')%>" title="<%=getAttribute('sitecategory',-148,'itemid')%>"><%=getAttribute('sitecategory',-148,'itemid')%></a></li>
+                <li class="main-nav-link"><a href="<%=getAttribute('sitecategory',-202,'storeurl')%>" title="Blog"><%=getAttribute('sitecategory',-202,'itemid')%></a></li>
+            </ul>
+
+        </div>
+
+        <!-- NOTE: This is the header menu that appears at the top of your site. -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div class="ecommerce-header-top show-for-large">
+                <div class="grid-x align-justify">
+                    <div class="cell ecommerce-header-top-links">
+                        <ul>
+                            <COMPANY_LIST_LINKS>
+
+                                <li>
+                                    <a class="cart-tag" href="<NLCARTURL>"><i class="fa fa-shopping-cart"></i><span><NLCARTITEMCOUNT></span></a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ecommerce-header show-for-large">
+                <div class="grid-x grid-padding-x align-justify">
+                    <div class="shrink cell small-9">
+                        <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
+                            <li class="logo"><a href="<%=getCurrentAttribute('site','homepageurl')%>" title="Ramsey, Inc."><h1>Ramsey Inc.</h1></a></li>
+                            <li class="main-nav-link"><a href="<%=getCurrentAttribute('site','homepageurl')%>" title="Home">Home</a></li>
+                            <li class="main-nav-link">
+                                <a href="<%=getAttribute('infoitem',12,'storeurl')%>" title="Company">Company</a>
+                                <ul class="vertical menu">
+                                    <li>
+                                        <a href="/photog/Camcorders/About-Us.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="/contact-fourth-wave-consulting">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--<li class="main-nav-link"><a href="<%=getAttribute('sitecategory',155,'storeurl')%>" title="<%=getAttribute('sitecategory',155,'itemid')%>"></a></li>-->
+                            <li class="main-nav-link mega-menu">
+                                <a data-toggle="mega-menu" href="/Technology/">Technology</a>
+                                <div class="dropdown-pane bottom" id="mega-menu" data-dropdown data-options="closeOnClick:true; hover: true; hoverPane: true; vOffset:11">
+
+                                    <div class="grid-x expanded">
+                                        <div class="cell small-3">
+                                            <h5>Cameras</h5>
+                                            <a href="/Technology/Sony-camcorders/" title="Cameras"><img src="/image_cat_cameras.jpg" alt="Cameras"></a>
+
+                                        </div>
+                                        <div class="cell small-3">
+                                            <h5>Phones</h5>
+                                            <a href="/Technology/Sony-camcorders/" title="Phones"><img src="/4400-Magix-Phone-image.jpg" alt="Phones"></a>
+                                        </div>
+                                        <div class="cell small-3">
+                                            <h5>Fax</h5>
+                                            <a href="/Technology/Sony-camcorders/" title="Fax"><img src="/All-In-1-Multi-Function-Centre-image.jpg" alt="Fax"></a>
+                                        </div>
+                                        <div class="cell small-3">
+                                            <h5>Camcorders</h5>
+                                            <a href="/Technology/Sony-camcorders/" title="Camcorders"><img src="/image_cat_camcorders.jpg" alt="Camcorders"></a>
+                                            <ul class="menu vertical">
+                                                <li><a href="#">Sony Camcorders</a></li>
+                                                <li><a href="#">Sony Camcorders 2</a></li>
+                                                <li><a href="#">Sony Camcorders 3</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="main-nav-link"><a href="<%=getAttribute('sitecategory',-148,'storeurl')%>" title="<%=getAttribute('sitecategory',-148,'itemid')%>"><%=getAttribute('sitecategory',-148,'itemid')%></a></li>
+                            <li class="main-nav-link"><a href="<%=getAttribute('sitecategory',-202,'storeurl')%>" title="Blog"><%=getAttribute('sitecategory',-202,'itemid')%></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="shrink cell small-3">
+                        <div class="search">
+                            <script type="text/javascript">
+                                $j(document).ready(function(){
+    //			$j(".search-table input").css("border","0").css("background","none");
+                                    //$j(".search_table tbody tr td table tbody tr:first").remove();
+    //			$j(".search_table tbody tr td table tbody tr:last").remove();
+                                    $j(".search input.input").attr("id","search-input");
+                                    // $j(".search input#go").attr('value', '');
+                                    $j(".search input.input").focus(function(){
+                                        $j(".search input.input").attr("value", "").css("color", "#000");
+                                        $j(".search input.input").keyup(function(event){
+                                            if (event.keyCode == 13) {
+                                                $j(".search input#go").click();
+                                            }
+                                        });
+                                    });
+                                    /*			$j(".search input.input").blur(function (){
+
+                                                    var content = $j(".search input.input").attr("value");
+                                                    if( content == "") {
+                                                        $j(".search input.input").attr("value", "_search products").css("color", "#000");
+                                                    }
+                                                });
+                                    */		});
+                            </script>
+                            <table class="search_table">
+                                <NLGLOBALSEARCHHTML>
+                            </table>
+                            <GPR_AAE_SEARCH>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ecommerce-header-mobile hide-for-large">
+                <div class="ecommerce-header-mobile-left">
+                    <button class="menu-icon" type="button" data-toggle="ecommerce-header"></button>
+                    <form class="ecommerce-header-search-exandable">
+                        <input type="search" class="input" name="search" maxlength="50" size="17" value="" placeholder="Search">
+                    </form>
+                </div>
+                <div class="ecommerce-header-mobile-center">
+                    <a class="logo" href="<%=getCurrentAttribute('site','homepageurl')%>"><h1>Ramsey Inc.</h1></a>
+                </div>
+                <div class="ecommerce-header-mobile-right">
+                    <a class="cart-tag" href="<NLCARTURL>"><i class="fa fa-shopping-cart"></i><span><NLCARTITEMCOUNT></span></a>
+                </div>
+            </div>
+        </div>
+    </td>
+</tr>
+<SSI_TEST>
+    <GTM_IFRAME>
+        <!-- end Logo & Tabs Template -->

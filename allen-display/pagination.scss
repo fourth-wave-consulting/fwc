@@ -1,0 +1,99 @@
+/* Pagination table selector */
+
+#body-contents table[cellpadding="5"][cellspacing="3"][align="center"] {
+  margin: 1rem auto;
+  tbody tr {
+    display: inline-block;
+    text-align: center;
+    td {
+      display: inline-block;
+      padding: 6px 6px !important;
+      &:nth-child(2) {
+        img {
+          display: none;
+        }
+        &:after {
+          content: "<";
+          display: inline-block;
+          position: relative;
+          color: #000;
+        }
+        margin: 0 5px;
+        margin-left: -1px;
+        text-decoration: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        transition: all 0.2s;
+        border-radius: 3px;
+      }
+      &[align="center"] {
+        margin: 0 5px;
+        margin-left: -1px;
+        text-decoration: none;
+        background-color: #337ab7;
+        border: 1px solid #337ab7;
+        transition: all 0.2s;
+        border-radius: 3px;
+        &.bglt.medtextbold {
+          background-color: transparent;
+          border-color: transparent;
+          &:hover {
+            cursor: initial;
+          }
+        }
+        a {
+          color: #fff;
+        }
+        &:hover {
+          background-color: #0b5da9;
+          border-color: #0b5da9;
+          cursor: pointer;
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+      text-decoration: none;
+      font-size: 15px;
+      a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #337ab7;
+      }
+      &.medtext:first-of-type {
+        display: block;
+      }
+      &:last-child {
+        margin: 0 5px;
+        margin-left: -1px;
+        text-decoration: none;
+        background-color: #337ab7;
+        border: 1px solid #337ab7;
+        transition: all 0.2s;
+        border-radius: 3px;
+        a {
+          img {
+            display: none;
+          }
+          &:after {
+            content: ">";
+            display: inline-block;
+            position: relative;
+            color: #fff;
+            font-weight: 500;
+          }
+        }
+        &:hover {
+          background-color: #0b5da9;
+          border-color: #0b5da9;
+          cursor: pointer;
+          color: #000;
+          a:after {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

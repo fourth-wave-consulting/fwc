@@ -1,0 +1,170 @@
+.ecommerce-header {
+    width: 100%;
+    background-color: #fefefe;
+}
+.ecommerce-header .logo {
+    height: auto;
+    width: 260px;
+    background: url(/site/ry-header/logo.jpg) no-repeat;
+}
+.ecommerce-header .logo a {
+    display: block;
+}
+.ecommerce-header ul {
+    background-color: #fefefe;
+}
+.ecommerce-header li {
+    display: inline-block;
+}
+.ecommerce-header .nav-links {
+    margin-left: 15px;
+}
+.ecommerce-header a {
+    color: #8a8a8a;
+    transition: color 0.5s ease;
+    display: block;
+}
+.ecommerce-header a:hover {
+    color: #0b0b0b;
+    transition: color 0.5s ease;
+}
+.ecommerce-header input {
+    margin-right: 0px;
+}
+.ecommerce-header.top-bar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.ecommerce-header .button.search-button {
+    width: 39px;
+    height: 39px;
+    background-size: 20px 20px;
+    background-image: url("https://placehold.it/20x20");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0px;
+}
+.ecommerce-header .menu > .main-nav-link > a {
+    padding: 1.5em 0.85em 1.9em 0.85em;
+}
+@media screen and (max-width: 74.9375em) {
+    .ecommerce-header input {
+        width: 150px;
+    }
+}
+.ecommerce-header-top {
+    width: 100%;
+    background-color: #575757;
+    height: 40px;
+    padding: 8px 20px 10px 20px;
+}
+.ecommerce-header-top .fa {
+    color: #fefefe;
+    font-size: 1.5rem;
+}
+.ecommerce-header-top-message {
+    color: white;
+    float: left;
+}
+.ecommerce-header-top-links {
+    color: white;
+}
+.ecommerce-header-top-links ul li {
+    display: inline;
+    padding-left: 20px;
+}
+.ecommerce-header-top-links a {
+    color: white;
+    transition: color 0.5s ease;
+}
+.ecommerce-header-top-links a:hover {
+    color: white;
+    transition: color 0.5s ease;
+}
+.ecommerce-header-off-canvas {
+    background-color: #575757;
+}
+.ecommerce-header-off-canvas .menu {
+    padding: 1rem 0;
+}
+.ecommerce-header-off-canvas .menu a {
+    color: #8a8a8a;
+}
+.ecommerce-header-mobile {
+    background-color: #575757;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.625rem 1.25rem;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.ecommerce-header-mobile-left, .ecommerce-header-mobile-right, .ecommerce-header-mobile-center {
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0px;
+    flex: 1 0 0;
+}
+.ecommerce-header-mobile-left {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.ecommerce-header-mobile-center {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.ecommerce-header-mobile-right {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.ecommerce-header-mobile-right .fa {
+    color: #fefefe;
+    font-size: 1.5rem;
+}
+.ecommerce-header-search-exandable input[type=search] {
+    margin: 0 1rem;
+    background: #e6e6e6 url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #cacaca;
+    padding: 9px 10px 9px 26px;
+    width: 35px;
+    border-radius: 5000px;
+    transition: all 0.5s;
+}
+.ecommerce-header-search-exandable input[type=search]:focus {
+    width: 120px;
+    background-color: #fefefe;
+    border-color: #1779ba;
+    box-shadow: 0 0 5px rgba(23, 121, 186, 0.5);
+}
+.ecommerce-header-search-exandable input:-moz-placeholder, .ecommerce-header-search-exandable input::-webkit-input-placeholder {
+    color: #8a8a8a;
+}
+.ecommerce-header-search-exandable input[type=search]:hover {
+    background-color: #fefefe;
+}

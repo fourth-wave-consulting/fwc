@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><sitemaplog><state>Finished</state><!-- sitemap spider run-time in seconds -->
+<runtime>5532</runtime><!-- number of pages scanned by sitemap spider -->
+<pagesfound>10000</pagesfound><!-- number of pages remained to scan by sitemap spider before it finished -->
+<pagesremain>13353</pagesremain><!-- max depth reached by sitemap spider -->
+<maxdepth>4</maxdepth><!-- reason for sitemap spider's premature exit -->
+<exitreason>Max scaned pages reached</exitreason></sitemaplog>

@@ -1,0 +1,383 @@
+html {
+    background: url(/site/ry-img-site/bg-content.jpg) repeat-y center top;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(/site/ry-img-site/bg-body.jpg) repeat-x left top;
+    font-size: 12px;
+    color: #333;
+}
+table {
+    border-collapse: unset;
+}
+#outerwrapper, #innerwrapper {
+    margin: 0 auto;
+}
+a {
+    color: #444;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a img {
+    border: 0;
+}
+img {
+    vertical-align: middle;
+}
+input, select, textarea, .bgbutton {
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    vertical-align: middle;
+}
+/* ############### HEADER ############### */
+#go {
+    border: 0px;
+    background: none;
+    height: 22px;
+    width: 35px;
+}
+#search-input {
+    border: 0px;
+    width: 260px;
+    background: none;
+}
+/* ############### LEFT ############### */
+.class_shop_by {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1c4b8e;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid white;
+    border-top: 5px solid white;
+    padding: 12px 15px;
+}
+.class_shop_by img {
+    padding-left: 15px;
+}
+.left-wrap {
+    width: 206px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0 10px 0 0;
+}
+.wrap_tab_group {
+    background: #f6f6f6;
+}
+.wrap_tab_group .level1 img {
+    margin: 0 12px;
+}
+.wrap_tab_group .level2 img, .wrap_tab_group .level3 img, .wrap_tab_group .level4 img {
+    margin: 0 5px;
+    visibility: hidden;
+}
+.wrap_tab_group .items_nav td {
+    color: #444;
+    vertical-align: middle;
+    font-size: 12px;
+    height: 33px;
+    font-weight: normal;
+}
+.wrap_tab_group .level1 {
+    background: url(../ry-left/bg_left_item.gif) repeat-x left top;
+}
+.wrap_tab_group .items_nav td a {
+    color: #444;
+    font-size: 12px;
+    font-weight: normal;
+}
+.wrap_tab_group .level2 td.active a {
+    font-weight: bold;
+}
+.left-wrap .title_box {
+    background: #ececec;
+    color: #0e3671;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 12px 3px;
+    border: 1px solid #e1e1e1;
+}
+.left-wrap .title_box span {
+    background: url(/site/ry-left/arrow.gif) no-repeat right center;
+    padding: 0 20px 0 0;
+}
+.left-wrap .content_box {
+    background: #ececec url(/site/ry-left/bg_content_box.jpg) repeat-x left bottom;
+    border-top: 1px solid #ccc;
+    margin: 1px 0 7px;
+    overflow: hidden;
+}
+.left-wrap .content_box .sku_wrap {
+    margin: 0 0 3px;
+    padding: 14px 14px 0;
+}
+.left-wrap .content_box .qio_label {
+    font-size: 11px;
+    color: #555;
+    margin: 0 0 3px;
+    line-height: normal;
+}
+.left-wrap .content_box .qio_input_search {
+    padding: 5px;
+    width: 160px;
+    font-size: 11px;
+    background: url(/site/ry-left/bg_qio_search.png) no-repeat left top !important;
+    border: 0;
+}
+.left-wrap .content_box .qio_input_qty {
+    background: url(/site/ry-left/bg_qio_qty.png) no-repeat left top !important;
+    border: 0;
+    padding: 5px;
+    font-size: 11px;
+    width: 26px;
+    text-align: center;
+}
+.left-wrap .content_box .qty_wrap {
+    width: 40px;
+    float: left;
+    padding: 0 0 14px 14px;
+}
+.left-wrap .content_box .qio_addtocart {
+    float: left;
+    padding: 16px 0 0;
+}
+.left-wrap .content_box .qio_addtocart a {
+    width: 86px;
+    height: 23px;
+    background: url(/site/ry-left/btn_qio_addto.jpg) no-repeat left top;
+    margin: 0;
+}
+.powered_by {
+    margin: 3px;
+    font-size: 10px;
+    color: #555;
+    padding: 7px 8px 3px 25px;
+    clear: both;
+    background: #f0f0f0 url(/site/ry-left/icon_gproxy.jpg) no-repeat 5px center;
+}
+.powered_by a {
+    color: #555;
+}
+.left-wrap .content_box .rvi_list_container {
+    padding: 0;
+}
+.left-wrap .content_box .rvi_list_container .title-recently-viewed {
+    font-size: 11px;
+    padding: 5px 10px;
+}
+.left-wrap .content_box .results-list ul {
+    padding: 10px;
+    float: none;
+    display: block;
+    margin: 0;
+    width: auto;
+}
+.left-wrap .content_box .results-list ul li {
+    padding: 0;
+    float: none;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    background: url(/site/ry-left/border_recently.gif) repeat-x left bottom;
+    margin: 0 0 10px;
+}
+.left-wrap .content_box .results-list ul li .rvi_image {
+    width: 58px;
+    height: 58px;
+    max-width: none;
+    max-height: none;
+    min-width: inherit;
+    min-height: inherit;
+    overflow: hidden;
+    float: left;
+    margin: 0 8px 8px 0;
+}
+.left-wrap .content_box .results-list ul li .rvi_image img {
+    max-width: 58px;
+    max-height: 58px;
+}
+.left-wrap .content_box .results-list ul li .rvi_name, .left-wrap .content_box .results-list ul li .rvi_stkmessage {
+    font-size: 11px;
+    font-weight: normal;
+}
+.left-wrap .content_box .results-list ul li .rvi_price_label {
+    color: #ad100d;
+    font-weight: bold;
+    font-size: 11px;
+}
+.left-wrap .wrap-content-currency, .left-wrap .wrap-content-language {
+    padding: 12px;
+}
+.left-wrap .wrap-content-currency .smalltextnolink, .left-wrap .wrap-content-language .smalltextnolink {
+    font-size: 11px;
+}
+/* ############### FOOTER ############### */
+.footer_wrap {
+    overflow: hidden;
+    margin: 0 auto;
+}
+.newsletter_wrap {
+    background: url(/site/ry-footer/bg_newsletter_foot.jpg) no-repeat left top;
+    height: 48px;
+}
+.footer_wrap .newsletter_form {
+    float: left;
+    padding: 12px 0 0 320px;
+}
+.follow_us {
+    float: right;
+    margin: 0 45px 0 0;
+    padding: 10px 0 0;
+}
+.follow_us a {
+    margin: 0 3px 0 0;
+}
+.footer_nav {
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    background: url(/site/ry-footer/bg_nav_footer.jpg) repeat-x left top;
+    padding: 10px 0 9px;
+}
+.footer_nav li {
+    display: inline;
+    background: url(/site/ry-footer/sep.gif) no-repeat right center;
+    padding: 0 15px 0 13px;
+}
+.footer_nav li.last {
+    background: none;
+}
+.footer_nav li a {
+    color: #0b3976;
+    font-weight: bold;
+}
+.footer {
+    background: url(/site/ry-footer/bg_footer.jpg) repeat-x left top;
+    position: relative;
+}
+.footer .paypal {
+    position: absolute;
+    left: 24px;
+    top: 26px;
+}
+.footer .ramsey_inc {
+    text-align: center;
+    color: #555;
+    font-weight: bold;
+    padding: 31px 0 12px;
+    background: url(/site/ry-footer/sep_2.gif) repeat-x left bottom;
+    margin: 0 15px;
+}
+.footer .call_us {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    background: url(/site/ry-footer/icon_call_us.gif) no-repeat left top;
+    padding: 4px 0 4px 25px;
+    font-weight: bold;
+    color: #444;
+    font-size: 13px;
+}
+.footer .google_checkout {
+    position: absolute;
+    left: 21px;
+    top: 66px;
+}
+.footer .copy {
+    text-align: center;
+    margin: 0;
+    color: #555;
+    font-size: 11px;
+    padding: 6px 0 0;
+}
+.footer_netsuite_content {
+    text-align: center;
+    margin: 25px 0 0 0;
+    padding: 6px 0 0;
+}
+.footer_netsuite_link {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 10px;
+    color: #666;
+}
+.footer .cards {
+    position: absolute;
+    right: 16px;
+    top: 70px;
+}
+.footer .desig_by {
+    font-size: 10px;
+    background: url(/site/ry-footer/logo_gproxy.gif) no-repeat left top;
+    padding: 1px 0 1px 30px;
+    position: absolute;
+    right: 20px;
+    top: 110px;
+    line-height: 11px;
+}
+.footer .desig_by a {
+    color: #666;
+}
+/* cart banner styles */
+div#cartBanner {
+    width: 400px;
+    position: relative;
+    left: 200px;
+    text-align: center;
+    border: 1px solid #666;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+/* CSS for related item layout FWC */
+#itemlisttd {
+    padding: 0;
+}
+.itemcelltd {
+    text-align: center;
+    padding: 0 5px 15px 5px;
+    margin: 0 auto;
+    width: 120px;
+}
+div.imgWrap {
+    float: left;
+    text-align: center;
+    width: 120px;
+    height: 121px;
+    margin: 0px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    line-height: 148px;
+}
+div.imgWrap img {
+    margin-top: expression(( 100 - this.height ) / 2);
+    max-width: 120px;
+    max-height: 120px;
+    position: relative;
+    top: -15px;
+}
+html > body div.imgWrap img {
+    /*hidden from IE 5-6 */
+    margin-top: 0;
+    /* to clean up, just in case IE later supports valign! */
+    vertical-align: middle;
+}
+.related_outer_wrap {
+    padding-top: 50px;
+    clear: left;
+}
+#related_list {
+    margin-top: 10px !important;
+}

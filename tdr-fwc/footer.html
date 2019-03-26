@@ -1,0 +1,51 @@
+<!-- begin Footer template -->
+
+<div class="ecommerce-footer">
+    <div class="ecommerce-footer-links grid-x">
+        <div class="small-12 medium-12 large-12 cell">
+            <div class="grid-x ecommerce-footer-links-block">
+                <div class="small-6 medium-4 cell">
+                    <h5>Categories</h5>
+                    <ul class="menu vertical">
+                        <li><a href="<%=getCurrentAttribute('site','homepageurl')%>" title="Home">Home</a></li>
+                        <li><a href="<%=getAttribute('infoitem',12,'storeurl')%>" title="Company">Company</a></li>
+                        <li><a href="<%=getAttribute('sitecategory',155,'storeurl')%>" title="<%=getAttribute('sitecategory',155,'itemid')%>"><%=getAttribute('sitecategory',155,'itemid')%></a></li>
+                        <li><a href="<%=getAttribute('sitecategory',157,'storeurl')%>" title="<%=getAttribute('sitecategory',157,'itemid')%>"><%=getAttribute('sitecategory',157,'itemid')%></a></li>
+                        <li><a href="<%=getAttribute('sitecategory',-148,'storeurl')%>" title="<%=getAttribute('sitecategory',-148,'itemid')%>"><%=getAttribute('sitecategory',-148,'itemid')%></a></li>
+                        <li><a href="<%=getAttribute('sitecategory',-202,'storeurl')%>" title="Blog"><%=getAttribute('sitecategory',-202,'itemid')%></a></li>
+
+                    </ul>
+                </div>
+                <div class="small-6 medium-4 cell">
+                    <h5>About</h5>
+                    <ul class="menu vertical">
+                        <COMPANY_LIST_LINKS>
+                    </ul>
+                </div>
+                <div class="small-6 medium-4 cell">
+                    <h5>Social</h5>
+                    <ul class="menu">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="ecommerce-footer-bottom-bar grid-x">
+        <div class="small-12 medium-3 cell ecommerce-footer-logomark">
+            <a class="logo" href="<%=getCurrentAttribute('site','homepageurl')%>" title="Ramsey, Inc."><h1>Ramsey Inc.</h1></a>
+        </div>
+        <div class="small-12 medium-9 cell">
+            <div class="bottom-copyright">
+                <span>©2017 Ramsey Inc. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</div>
+<GAUFOOT>
+<GOOGLYTICSFOOT>
+<!-- end Footer template -->
